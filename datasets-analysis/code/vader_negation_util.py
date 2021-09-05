@@ -28,11 +28,6 @@ def negated(input_words, include_nt=True, return_words_flag=False):
             if "n't" in word:                
                 neg_words_in_input.append(word)
                 count += 1
-    '''if "least" in input_words:
-        i = input_words.index("least")
-        if i > 0 and input_words[i - 1] != "at":
-            return True'''
-
     if return_words_flag:
         return neg_words_in_input
     else:
