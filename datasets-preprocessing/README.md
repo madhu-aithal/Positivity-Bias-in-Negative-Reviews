@@ -1,4 +1,5 @@
 # Datasets Preprocessing
+This directory contains the code related to preprocessing of datasets, before use it for analysis. 
 
 ## Datasets
 1. Yelp restaurant reviews
